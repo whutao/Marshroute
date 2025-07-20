@@ -1,4 +1,4 @@
-import Foundation
+import UIKit
 
 func assertPossibleRetainCycle(ofViewController viewController: UIViewController?) {
     if viewController == nil { return }
